@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table page</title>
+    <link rel="stylesheet" href="">
+    <meta name="viewport" content="width-device-width">
+    <style>
+        table{
+          position: absolute;
+          top: 45%;
+          left: 15%;
+          border:2px solid rgb(95, 100, 119);
+          padding-inline: 2px;
+          border-radius: 14px;
+        }
+        th, td {
+          border:2px solid rgb(95, 100, 119);
+          padding-inline: 40px;
+          border-radius: 7px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <table>
+            <tr>
+              <th>Հայտի համար՝</th>
+              <th>Հայտի Անվանում՝</th>
+              <th>Հայտի բացումից հետո անցաց Ժամանակը՝</th>
+              <th>Առժեքը՝</th>
+            </tr>
+            <tr>
+              <td>{{ value1 }}</td>
+              <td>{{ value2 }}</td>
+              <td>{{ value3 }}</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td></td>
+              <td></td>
+          </table>
+    </div>
+  </body>
+</html>
